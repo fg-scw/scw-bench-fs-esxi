@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+validation-results/
+.terraform/
+*.tfstate*
+*.tfplan
+*.tfvars
+*.auto.tfvars
+
+# Credentials and local access files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*known_hosts*
+*.tfbackend
+crash.log
